@@ -26,11 +26,11 @@
 #### Usage :
  Explain to the user how to use your project . 
  for example:
- - Type `1` to merge PDF files.
- - Type `2` to split specific pages from a PDF.
+ - Type `1`to merge PDFfiles. Enter PDF filenames seperated by comma and space after the comma eg: ex1.pdf, ex2.pdf
+ - Type `2` to split specific pages from a PDF. enter pages like this 1,2,3 for example
  - Type `3` to encrypt a PDF file.
  - Type `4` to decrypt a PDF file.
- - Type `5` to extract text from a PDF.
+ - Type `5` to extract text from a PDF. the extracted file must be .txt
  - Type `q` to quit the program.
 
 
