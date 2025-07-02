@@ -11,7 +11,7 @@
 
 ## Example Project :  PDF Swiss Knife: 
 
-#### Overview : is a Command Line Interface (CLI) tool that allows users to manipulate PDF files. It provides basic functions for PDF tasks such as merging, splitting, encrypting, decrypting, and extracting text. It is designed for ease of use and quick results without relying on online tools. . 
+#### Overview : is a Command Line Interface (CLI) tool that allows users to manipulate PDF files. It provides basic functions for PDF tasks such as merging, splitting, encrypting, decrypting, and extracting text. It is designed for ease of use and quick results without relying on online tools.
 
 ### Features & User Stories
 #### As a customer I should be able to do the following :

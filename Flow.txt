@@ -1,0 +1,34 @@
+Python Flow Control
+Conditionals
+Control the flow of a programIf … else
+We use if … else statement to control the flow of the our program . When we need
+a decision based on a condition .
+Basic Syntax :
+If test_expression:
+Statement / sIf … else
+We can add body of code to execute in case the expression is false in the if
+statement.
+Syntax :
+If test_expression:
+Statement / s
+else:
+Statement / sIf … elif … else
+We can also check multiple expressions , and execute the body of code inside
+them when the expression evaluate to true. We use elif , which is a short for else
+if.
+Syntax:
+If test_expression:
+Statement / s
+elif test_expression:
+Statement / s
+else:
+Statement / sComparison Operators
+> Greater than: True if the left operand is greater than the right
+< Less than: True if the left operand is less than the right
+== Equal to: True if both operands are equal
+!= Not equal to – True if operands are not equal
+>= Greater than or equal to: True if left operand is greater than or equal to the right
+<= Less than or equal to: True if left operand is less than or equal to the rightLogical Operators
+and Logical AND: True if both the operands are true
+or Logical OR: True if either of the operands is true
+not Logical NOT: True if operand is false

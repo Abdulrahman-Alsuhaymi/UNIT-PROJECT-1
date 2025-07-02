@@ -4,7 +4,7 @@ from encrypt import encrypt_pdf, decrypt_pdf
 from extract import extract_text
 
 def main():
-    print(" Welcome to PDFSwissKnife")
+    print("\nWelcome to PDFSwissKnife")
     while True:
         print("\nChoose an option: ")
         print("1 - Merge PDFs ")
