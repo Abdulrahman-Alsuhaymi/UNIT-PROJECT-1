@@ -2,6 +2,7 @@ from merge import merge_pdfs
 from split import split_pdf
 from encrypt import encrypt_pdf, decrypt_pdf
 from extract import extract_text
+
 def main():
     print(" Welcome to PDFSwissKnife")
     while True:
@@ -11,6 +12,7 @@ def main():
         print("3 - Encrypt PDF ")
         print("4 - Decrypt PDF ")
         print("5 - Extract text ")
+        
 
         print("q - Exit ")
         choice = input(">> ").strip()
@@ -25,6 +27,7 @@ def main():
             decrypt_pdf()
         elif choice == "5":
             extract_text()
+        
         elif choice == "q":
             print("Goodbye!")
             break

@@ -16,5 +16,8 @@ def merge_pdfs():
 
     with open(output, "wb") as out_file:
         writer.write(out_file)
+    
+    print(f"✅ Merged PDF saved as {output}")
+    
 
-    print(f"Merged PDF saved as {output}")
+

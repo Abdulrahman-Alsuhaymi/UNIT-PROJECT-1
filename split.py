@@ -1,5 +1,6 @@
 from pypdf import PdfReader, PdfWriter
 import os
+from rich.progress import track
 
 def split_pdf():
     file_name = input("Enter the PDF file name: ").strip()
@@ -25,8 +26,8 @@ def split_pdf():
 
     reader = PdfReader(file_name)
     total = len(reader.pages)
-
-    for page in pages:
+    
+    for page in track(pages, description="Processing.."):
         page_index = page - 1
         if 0 <= page_index < total:
             writer = PdfWriter()
@@ -36,8 +37,7 @@ def split_pdf():
             with open(new_file, "wb") as f:
                 writer.write(f)
 
-            print("Saved:", new_file)
+            print(f"✅ Saved: {new_file}")
         else:
-            print("Page number is out of range.")
-
+            print(f"⚠️ Page {page} is out of range.")
 
